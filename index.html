@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mississauga Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mississauga Weather</h1>
+    <p>Check the weather before heading outside.</p>
+
+    <div id="weather">
+        <h2>Current weather</h2>
+        <p id="temperature">Temperature: -- °C</p>
+        <p id="wind">Wind: -- km/h</p>
+        <p id="message">Loading weather...</p>
+    </div>
+
+    <button onclick="getWeather()">Refresh weather</button>
+
+    <p>Weather data: <a href="https://open-meteo.com/">Open-Meteo</a>
+        (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</p>
+    <p>Current conditions are based on weather models.</p>
+    <script src="script.js"></script>
+</body>
+</html>

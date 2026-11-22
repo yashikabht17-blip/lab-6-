@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #333333;
+    background-color: lightgray;
+}
+
+#weather {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+#temperature {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.cold {
+    background-color: lightblue;
+}
+
+.mild {
+    background-color: lightyellow;
+}
+
+.hot {
+    background-color: lightsalmon;
+}
